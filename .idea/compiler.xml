@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Vehicle" />
+        <module name="Guide" />
+        <module name="User" />
+        <module name="Hotel" />
+        <module name="Travel_Package" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Guide" target="17" />
+      <module name="Hotel" target="17" />
+      <module name="Travel_Package" target="1.8" />
+      <module name="User" target="17" />
+      <module name="Vehicle" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Guide" options="-parameters" />
+      <module name="Hotel" options="-parameters" />
+      <module name="Travel_Package" options="-parameters" />
+      <module name="User" options="-parameters" />
+      <module name="Vehicle" options="-parameters" />
+    </option>
+  </component>
+</project>
