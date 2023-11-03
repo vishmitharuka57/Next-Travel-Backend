@@ -8,7 +8,7 @@
         <version>3.1.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>lk.ijse.gdse.aad.coursework</groupId>
+    <groupId>lk.ijse.gdse.aad.vishmi.coursework</groupId>
     <artifactId>coursework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>coursework</name>
@@ -41,6 +41,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.4.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>

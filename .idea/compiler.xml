@@ -17,7 +17,7 @@
     <bytecodeTargetLevel>
       <module name="Guide" target="17" />
       <module name="Hotel" target="17" />
-      <module name="Travel_Package" target="1.8" />
+      <module name="Travel_Package" target="17" />
       <module name="User" target="17" />
       <module name="Vehicle" target="17" />
     </bytecodeTargetLevel>
