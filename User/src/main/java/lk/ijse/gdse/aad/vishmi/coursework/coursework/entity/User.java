@@ -1,6 +1,7 @@
 package lk.ijse.gdse.aad.vishmi.coursework.coursework.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,11 +14,12 @@ public class User {
     @Id
     private String userId;
     private String role;
-    private String userName;
+    private String fName;
+    private String lName;
+    private String username;
     private String email;
     private String password;
-    private String nicFront;
-    private String nicBack;
+    private String nicBothSide;
     private String dob;
     private String gender;
     private String profile;
