@@ -23,11 +23,11 @@ public class packageController {
     public List<PackageDTO> getPackage(){
         return packageService.getAllPackages();
     }
-
     @PutMapping("/updatePackage")
     public PackageDTO updatePackage(@RequestBody PackageDTO packageDTO){
         return packageService.updatePackage(packageDTO);
     }
+
 
     @DeleteMapping("/deletePackage")
     public boolean deletePackage (@RequestBody PackageDTO packageDTO){
